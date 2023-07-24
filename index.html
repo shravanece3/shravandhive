@@ -1,38 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta charset="utf-8">
+    <title>::ShravanwedsDhive::</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/jquery.vegas.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/magnific-popup.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/dark.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet'
+      type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic'
+      rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root">This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.</div>
-    
+    <div id="mask">
+      <!-- <div id="loader"></div> -->
+    </div>
+    <a id="menu-toggle" href="index.html"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand text-center"><a href="index.html#" id="menu-close"><i class="fa fa-times">
+          </i></a>
+        </li>
+        <li><a href="index.html#top">Home</a></li>
+        <li><a href="index.html#about_us">Bride and Groom</a></li>
+        <li><a href="index.html#wedding_invitation">Wedding Invitation</a></li>
+        <li><a href="index.html#contact_us">Location</a></li>
+      </ul>
+    </nav>
+    <header id="top" class="header clearfix">
+      <div class="marriage_banner">
+        <div class="logo_top">
+          <a href="index.html#">Shravan <span>weds</span> Dhive</a>
+        </div>
+        <br>
+        <div class="banner_timer">
+          <ul>
+            <li><span id="days">00</span>Days</li>
+            <li><span id="hours">00</span>Hours</li>
+            <li><span
+              id="minutes">00</span>Minutes</li>
+            <li><span id="seconds">00</span>Seconds</li>
+          </ul>
+        </div>
+        <div class="banner-line">
+          <h2>
+            <span>We invite you and your family on 19th Aug 2023</span>
+          </h2>
+          <br>
+        </div>
+        <div class="top_arrow">
+          <a href="index.html#about_us"><i class="fa fa-chevron-down"></i></a>
+        </div>
+      </div>
+    </header>
+    <div>
+      <article class="about_us" id="about_us">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center ">
+              <h2 class="animated" data-animation="fadeIn" data-animation-delay="100">
+                Bride <span>and</span> Groom
+              </h2>
+              <div class="devider_main">
+                <img src="img/devider-gray.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="row latest_sermons">
+            <div class="col-md-3 text-center groom"> 
+            </div>
+            <div class="col-md-6 text-center groom">
+              <div class="img">
+                <img src="img/sarodivi.jpeg" class="animated" data-animation="bounceIn" data-animation-delay="100"
+                  alt="">
+              </div>
+            </div>
+            <div class="col-md-3 text-center bride">
+            </div>
+          </div>
+          <div class="row latest_sermons">
+            <div class="col-md-5 text-center groom">
+              <h3 class="animated" data-animation="fadeIn" data-animation-delay="100">
+                Shravan
+              </h3>
+              <div class="devider_main">
+                <img src="img/devider-gray.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-md-2 text-center groom">
+              <h3 class="animated" data-animation="fadeIn" data-animation-delay="100">
+                & 
+              </h3>
+              <div class="devider_main"></div>
+            </div>
+            <div class="col-md-5 text-center groom">
+              <h3 class="animated" data-animation="fadeIn" data-animation-delay="100">
+                Dhive
+              </h3>
+              <div class="devider_main">
+                <img src="img/devider-gray.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="wedding_invitation" id="wedding_invitation">
+        <div class="wedding_invitation_parallax">
+          <div class="about_bottom_bg">
+            <div class="container text-center">
+              <h3 class="animated" data-animation="fadeIn" data-animation-delay="500">
+                Dear Friends....
+              </h3>
+              <div class="row">
+                <div class="col-md-4 text-center animated" data-animation="fadeInLeft" data-animation-delay="500">
+                  <img src="img/flower.png" class="image_resized" alt="">
+                </div>
+                <div class="col-md-8 text-left animated" data-animation="fadeInRight" data-animation-delay="500">
+                  <p>
+                    "It's heavens creation and elder's selection, Life is wonderful as marriage is colorful
+                    and your wishes are meaningful"
+                  </p>
+                  <p>
+                    Cordially request your gracious presence with your family on the auspicious occasion
+                    of our marriage
+                  </p>
+                  <div class="thanks_cont slide_up">
+                    <p>
+                      <span>Yours,</span><br>
+                      <br>
+                      Shravan <span>and</span> Dhive
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="contact_address_cont" id="contact_us">
+        <div class="container">
+          <div class="row contact_address">
+            <div class="col-md-4 text-center address animated" data-animation="flipInY" data-animation-delay="500">
+              <p>
+                <i class="fa fa-calendar"></i>
+                <br>
+                <b>Reception</b><br>
+                <span>19th August 2023, 6:00 pm onwards</span><br>
+                <br>
+                <b>Muhurtham</b><br>
+                <span>20th August 2023, 6.00 am to 7:29 am</span><br>
+              </p>
+            </div>
+            <div class="col-md-4 text-center address animated" data-animation="flipInY" data-animation-delay="700">
+              <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15688.037336658897!2d77.5294836!3d10.578442!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9c2e8d45de38f%3A0x16e39217c04daa39!2sVel%20Mahal!5e0!3m2!1sen!2sin!4v1682180781479!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </p>
+            </div>
+            <div id="wrapper" class="col-md-4 text-center address animated" data-animation="flipInY" data-animation-delay="600">
+              <p>
+                <i class="fa fa-map-marker"></i>
+                <br>
+                <b>Vel Mahal, Thoppampatti</b><br>
+                 New Dharapuram Rd,Palani, Tamil Nadu 624601
+              </p>
+              <br>
+              <p>
+                <i class="fa fa-phone"></i>
+                <b><a href="tel:8883711317">+91 8883711317</a></b> 
+              </p>
+              <div id="wrapper">
+                <div class="audioHide" style="display: none;">
+                    <div class="audioControl" style="position:relative; top:10px; left:50px; display:inline-block;">
+                      <audio id="audioControl" muted controls autoplay loop>
+                      <source src="img/audio.mp3" type="audio/mpeg">Not Supported</audio>
+                    </div>
+                </div>
+                <div class="voiceLink">
+                  <a target="_blank" href="img/audio.mp3"></a>
+                </div>
+            </div>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <p class="invited">
+              You're Invited
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="top-scroll">
+        <a href="index.html#top"><i class="fa fa-chevron-up"></i></a>
+      </div>
+    </footer>
+    <script  src="js/jquery-1.10.2.js"></script>
+    <script  src="js/jquery.vegas.js"></script>
+    <script> 
+      $(function () { $.vegas('slideshow', { backgrounds: [{ src: 'img/bg/d-bg4.jpg', fade: 1000 }, { src: 'img/bg/d-bg2.jpg', fade: 1000 }, { src: 'img/bg/d-bg1.jpg', fade: 1000 },{ src: 'img/bg/d-bg8.jpg', fade: 1000 },{ src: 'img/bg/d-bg9.jpg', fade: 1000 }] }) });
+    </script>
+    <script  src="js/forms.js"></script>
+    <script  src="js/bootstrap.js"></script>
+    <script  src="js/countdown.js"></script>
+    <script  src="js/jquery.magnific-popup.js"></script>
+    <script  src="js/jquery.appear.js"></script>
+    <script  src="js/jquery.easytabs.js"></script>
+    <script  src="js/system.js"></script>
   </body>
 </html>
