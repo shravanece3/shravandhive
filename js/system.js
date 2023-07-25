@@ -40,7 +40,7 @@
           audio = $('.audioControl', resbox);
   
       audio.find('source').prop('src', link);
-      // audio.find('source').prop('muted', 'muted');
+      audio.find('source').prop('muted', 'muted');
       audio.parent().css('display', 'inline-block');
       audio.find('audio').load();
       setTimeout(audio.find('audio')[0].play(), 100);
@@ -48,8 +48,6 @@
     $(window).click(function(e) {
       $('.voiceLink a').trigger('click');
   });
-    setTimeout(() => {
-      $('.voiceLink a').trigger('click');
-     },500) 
+
   })
 }(jQuery);
